@@ -31,7 +31,7 @@ export const TodoForm = ({ addTodo }) => {
           value={value} 
           onChange={(e) => setValue(e.target.value)} />
       
-      <Button color="success" type='submit' variant="contained" ><MdAdd /></Button>
+      <Button color="primary" type='submit' variant="contained" ><MdAdd /></Button>
 
     
     </Box>
